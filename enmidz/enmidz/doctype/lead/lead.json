@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-11-11 12:09:01.569289",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lead_information_section",
+  "lead_name",
+  "lead_source",
+  "column_break_bxyt",
+  "lead_date",
+  "phone_number",
+  "personnal_information_section",
+  "first_name",
+  "last_name",
+  "dob",
+  "gender",
+  "enquiry_detail_section",
+  "date_of_enquiry",
+  "course_interested",
+  "follow_up_date",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "lead_information_section",
+   "fieldtype": "Section Break",
+   "label": "Lead Information"
+  },
+  {
+   "fieldname": "lead_name",
+   "fieldtype": "Data",
+   "label": "Lead Name"
+  },
+  {
+   "fieldname": "lead_source",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Lead Source",
+   "options": "Phone\nWebsite\nInstagram\nmeta ads\nReferral\nCampaigns",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bxyt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lead_date",
+   "fieldtype": "Date",
+   "label": "Lead Date"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "phone number"
+  },
+  {
+   "fieldname": "personnal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Personnal Information"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last name"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOther"
+  },
+  {
+   "fieldname": "enquiry_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Enquiry Detail"
+  },
+  {
+   "fieldname": "date_of_enquiry",
+   "fieldtype": "Date",
+   "label": "Date of Enquiry"
+  },
+  {
+   "fieldname": "course_interested",
+   "fieldtype": "Select",
+   "label": "Course Interested",
+   "options": "Data Science\nPython\nCommerce\nAI\nArts\nScience"
+  },
+  {
+   "fieldname": "follow_up_date",
+   "fieldtype": "Date",
+   "label": "Follow up date"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-11-11 17:27:59.982046",
+ "modified_by": "Administrator",
+ "module": "Enmidz",
+ "name": "Lead",
+ "owner": "alnasony8567@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
